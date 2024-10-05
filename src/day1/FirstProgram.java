@@ -1,5 +1,10 @@
 package day1;
 
+//fd3474e745e4425fbc7e63d241dca115   --> jenkins password
+//C:\Users\ADMIN\.jenkins\secrets\initialAdminPassword   --> default loacation
+//http://localhost:8080/   -->Jenkins URL
+//Username : VishnuVardhanDurgam
+
 import java.util.*;
 
 public class FirstProgram {
