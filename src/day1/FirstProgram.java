@@ -5,14 +5,11 @@ import java.util.*;
 public class FirstProgram {
 
 	public static void main(String[] args) {
-//		int a=10, b=20;
-//		
-//		System.out.println("before swapping a="+a+" and b="+b);
-//		
-//		a=(a+b)-(b=a);
-//		
-//		System.out.println("after swapping : a="+a+" and b="+b);
+		int a=10, b=20;
 		
+		System.out.println("before swapping a="+a+" and b="+b);	
+		a=(a+b)-(b=a);
+		System.out.println("after swapping : a="+a+" and b="+b);
 		
 		List<Integer> list = new ArrayList<Integer>();
 		list.add(1);
@@ -22,10 +19,7 @@ public class FirstProgram {
 		System.out.println(list);
 		
 		Set set=new HashSet<Integer>(list);
-		System.out.println(set);
-		
-		
-		
+		System.out.println(set);		
 	}
 }
 
